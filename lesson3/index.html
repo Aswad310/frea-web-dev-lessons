@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Change action/method as needed -->
+  <form action="/submit-here" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+      <legend>Basic Text Inputs</legend>
+
+      <label for="text">Text:</label>
+      <input type="text" id="text" name="text" placeholder="Enter text" /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="name@example.com" /><br /><br />
+
+      <label for="url">URL:</label>
+      <input type="url" id="url" name="url" placeholder="https://example.com" /><br /><br />
+
+      <label for="tel">Telephone:</label>
+      <input type="tel" id="tel" name="tel" placeholder="+92-300-1234567" /><br /><br />
+
+      <label for="search">Search:</label>
+      <input type="search" id="search" name="search" placeholder="Search..." /><br /><br />
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+      <legend>Dates & Times</legend>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" /><br /><br />
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" /><br /><br />
+
+      <label for="datetime">Datetime (local):</label>
+      <input type="datetime-local" id="datetime" name="datetime" /><br /><br />
+
+      <label for="month">Month:</label>
+      <input type="month" id="month" name="month" /><br /><br />
+
+      <label for="week">Week:</label>
+      <input type="week" id="week" name="week" /><br /><br />
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+      <legend>Choices</legend>
+
+      <p><strong>Checkboxes:</strong></p>
+      <label><input type="checkbox" name="features" value="featureA" /> Feature A</label><br />
+      <label><input type="checkbox" name="features" value="featureB" /> Feature B</label><br />
+      <label><input type="checkbox" name="features" value="featureC" /> Feature C</label><br /><br />
+
+      <p><strong>Radio Buttons (one choice):</strong></p>
+      <label><input type="radio" name="plan" value="basic" /> Basic</label><br />
+      <label><input type="radio" name="plan" value="pro" /> Pro</label><br />
+      <label><input type="radio" name="plan" value="enterprise" /> Enterprise</label><br /><br />
+
+      <br /><br />
+    </fieldset>
+
+    <br />
+
+  </form>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+  integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+</html>
